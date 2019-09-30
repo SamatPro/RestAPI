@@ -1,0 +1,66 @@
+###
+
+POST http://localhost/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+AUTH: 14de93d5-067e-4c9f-ada3-2fb2ab4cffe0
+
+{
+  "name": "Молоко",
+  "price": 78.5
+}
+
+###
+
+POST http://localhost/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+AUTH: 14de93d5-067e-4c9f-ada3-2fb2ab4cffe0
+
+{
+  "name": "Колбаса",
+  "price": 250
+}
+
+###
+
+PUT http://localhost/products/1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+AUTH: 14de93d5-067e-4c9f-ada3-2fb2ab4cffe0
+
+{
+  "name": "Молоко",
+  "price": 65.0
+}
+
+###
+
+GET http://localhost/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+AUTH: 14de93d5-067e-4c9f-ada3-2fb2ab4cffe0
+
+###
+
+GET http://localhost/products/5
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+AUTH: 14de93d5-067e-4c9f-ada3-2fb2ab4cffe0
+
+
+###
+
+DELETE http://localhost/products/2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+AUTH: 14de93d5-067e-4c9f-ada3-2fb2ab4cffe0
+
+
+###
